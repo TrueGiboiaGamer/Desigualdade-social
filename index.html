@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desigualdade Social - Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz sobre Desigualdade Social</h1>
+        <div id="quiz">
+            <!-- Pergunta 1 -->
+            <div class="question" id="question1">
+                <h2>Pergunta 1: O que é desigualdade social?</h2>
+                <form>
+                    <input type="radio" name="q1" id="q1a" value="a"><label for="q1a">Diferença no acesso a recursos entre diferentes grupos</label><br>
+                    <input type="radio" name="q1" id="q1b" value="b"><label for="q1b">Diferença no nível de educação apenas</label><br>
+                    <input type="radio" name="q1" id="q1c" value="c"><label for="q1c">Diferença na quantidade de alimentos consumidos</label><br>
+                </form>
+            </div>
+            <!-- Pergunta 2 -->
+            <div class="question" id="question2">
+                <h2>Pergunta 2: Qual é uma das principais causas da desigualdade social?</h2>
+                <form>
+                    <input type="radio" name="q2" id="q2a" value="a"><label for="q2a">Diferenças na renda e oportunidades de emprego</label><br>
+                    <input type="radio" name="q2" id="q2b" value="b"><label for="q2b">Diferenças nos esportes praticados</label><br>
+                    <input type="radio" name="q2" id="q2c" value="c"><label for="q2c">Diferenças no tipo de música favorita</label><br>
+                </form>
+            </div>
+            <!-- Pergunta 3 -->
+            <div class="question" id="question3">
+                <h2>Pergunta 3: Como a desigualdade social pode ser reduzida?</h2>
+                <form>
+                    <input type="radio" name="q3" id="q3a" value="a"><label for="q3a">Aumentando a educação e acessibilidade a recursos</label><br>
+                    <input type="radio" name="q3" id="q3b" value="b"><label for="q3b">Reduzindo os impostos para ricos</label><br>
+                    <input type="radio" name="q3" id="q3c" value="c"><label for="q3c">Aumentando o custo dos bens de consumo</label><br>
+                </form>
+            </div>
+            <button onclick="checkAnswers()">Enviar Respostas</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
